@@ -42,7 +42,7 @@ function StoreBadge({
       className={
         "inline-flex h-[52px] w-full items-center gap-2.5 rounded-xl px-4 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0 active:shadow-md " +
         (variant === "dark"
-          ? "bg-neutral-900 text-white hover:opacity-90"
+          ? "bg-neutral-900 text-white border border-white/10 hover:opacity-90"
           : "border border-neutral-200 bg-white text-neutral-900 hover:bg-neutral-50")
       }
     >

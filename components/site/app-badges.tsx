@@ -22,7 +22,7 @@ function StoreBadge({
       aria-label={`${top} ${bottom}`}
       className={cn(
         "inline-flex h-[52px] w-full items-center gap-3 rounded-[14px] px-4 whitespace-nowrap transition-all duration-200 hover:-translate-y-0.5 hover:opacity-95 hover:shadow-lg active:translate-y-0 active:shadow-md",
-        onDark ? "bg-on-ink text-ink" : "bg-primary text-primary-foreground",
+        onDark ? "bg-on-ink text-primary" : "bg-primary text-primary-foreground",
       )}
     >
       <span className="grid size-7 place-items-center">{glyph}</span>

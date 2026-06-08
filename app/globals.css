@@ -43,16 +43,16 @@
 
   /* Tide brand colors → first-class utilities: bg-ink, text-ink-2,
      text-ok, bg-surface, bg-cream, text-on-ink … */
-  --color-cream: #ece5d9;
-  --color-ink: #1a1a17;
-  --color-ink-2: #3a3a35;
-  --color-on-ink: #f6f2ec;
-  --color-ok: #3f8a52;
-  --color-open: #b9772a;
-  --color-off: rgba(26, 26, 23, 0.45);
-  --color-hairline: rgba(26, 26, 23, 0.1);
-  --color-surface: rgba(255, 255, 255, 0.55);
-  --color-surface-strong: rgba(255, 255, 255, 0.85);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-on-ink: var(--on-ink);
+  --color-ok: var(--ok);
+  --color-open: var(--open);
+  --color-off: var(--off);
+  --color-hairline: var(--hairline);
+  --color-surface: var(--surface);
+  --color-surface-strong: var(--surface-strong);
 
   /* shadcn component radius scale (kept moderate, for inputs/menus) */
   --radius-sm: calc(var(--radius) * 0.6);
@@ -94,7 +94,8 @@
   --hairline-2: rgba(26, 26, 23, 0.06);
   --surface: rgba(255, 255, 255, 0.55);
   --surface-strong: rgba(255, 255, 255, 0.85);
-  --text-on-ink: #f6f2ec;
+  --cream: #ece5d9;
+  --on-ink: #f6f2ec;
   --ok: #3f8a52;
   --open: #b9772a;
   --off: rgba(26, 26, 23, 0.45);
@@ -103,6 +104,53 @@
   --grad-3: #ffffff;
   --container: 1200px;
   --measure: 680px;
+}
+
+/* ==================================================================== */
+/*  Dark theme — same Tide contract, cool-dark palette.                 */
+/*  Tide still owns the variables; shadcn + Tide utilities both inherit */
+/*  (the @theme tokens above are var() refs, so flipping these cascades */
+/*  everywhere). Brand violet/teal are intentionally UNCHANGED.         */
+/* ==================================================================== */
+.dark {
+  color-scheme: dark;
+
+  /* --- shadcn tokens, valued from the cool-dark Tide palette --- */
+  --background: #0d0f15; /* cool slate near-black */
+  --foreground: #eceff4; /* cool off-white */
+  --card: rgba(255, 255, 255, 0.04); /* glass, now light-on-dark */
+  --card-foreground: #eceff4;
+  --popover: #181b24; /* SOLID cool dark slate — menus/sheets must be opaque */
+  --popover-foreground: #eceff4;
+  --primary: #634ec1; /* OVRIA brand violet — unchanged across themes */
+  --primary-foreground: #f3eefb;
+  --secondary: #23b9a6; /* OVRIA brand teal — unchanged across themes */
+  --secondary-foreground: #06231f;
+  --muted: rgba(255, 255, 255, 0.06);
+  --muted-foreground: rgba(236, 239, 244, 0.6);
+  --accent: rgba(255, 255, 255, 0.08);
+  --accent-foreground: #eceff4;
+  --destructive: oklch(0.704 0.191 22.216); /* lighter red for dark */
+  --border: rgba(236, 239, 244, 0.12); /* hairline, now light */
+  --input: rgba(236, 239, 244, 0.16);
+  --ring: #634ec1; /* focus ring = brand violet */
+
+  /* --- Tide-specific custom properties (dark) --- */
+  --ink: #eceff4; /* primary text → light */
+  --ink-2: rgba(236, 239, 244, 0.72); /* secondary text */
+  --muted-ink: rgba(236, 239, 244, 0.6);
+  --hairline: rgba(236, 239, 244, 0.12);
+  --hairline-2: rgba(236, 239, 244, 0.07);
+  --surface: rgba(255, 255, 255, 0.04);
+  --surface-strong: rgba(255, 255, 255, 0.08);
+  --cream: #181b24; /* "paper" → dark elevated */
+  --on-ink: #f1f3f9; /* light badge surface on the constant violet band */
+  --ok: #5fb87a; /* status green, brightened for dark legibility */
+  --open: #d59446; /* status amber, brightened for dark legibility */
+  --off: rgba(236, 239, 244, 0.42);
+  --grad-1: #0d0f15;
+  --grad-2: #0d0f15;
+  --grad-3: #0d0f15;
 }
 
 @layer base {
@@ -115,7 +163,7 @@
   }
   body {
     color: var(--ink);
-    background: #ffffff;
+    background: var(--background);
     overflow-x: clip; /* contain full-bleed (100vw) sections, keep sticky working */
     -webkit-font-smoothing: antialiased;
   }
