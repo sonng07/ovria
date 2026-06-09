@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { useScroll } from "@/hooks/use-scroll";
 import { Button } from "@/components/ui/button";
@@ -34,13 +36,20 @@ export function Header() {
 			)}
 		>
 			<nav className="flex w-full items-center justify-between p-2 md:transition-all md:ease-out">
-				<a
-					className="rounded-pill pl-3 text-base font-bold tracking-[0.04em] text-ink"
+				<Link
+					className="flex items-center rounded-pill pl-3"
 					href="/"
 					aria-label="OVRIA — accueil"
 				>
-					OVRIA
-				</a>
+					<Image
+						src="/logo.png"
+						alt=""
+						width={758}
+						height={132}
+						priority
+						className="h-3.5 w-auto"
+					/>
+				</Link>
 				<div className="hidden items-center gap-1 md:flex">
 					<div>
 						{navLinks.map((link) => (
