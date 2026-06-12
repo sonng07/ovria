@@ -49,7 +49,7 @@ export function PhoneMockups({ className }: { className?: string }) {
       <img
         src="/ovria-app.png"
         alt="L’application OVRIA — votre profil et les entreprises du bâtiment qui recrutent"
-        className="fade-in zoom-in-95 animate-in fill-mode-backwards relative w-[320px] select-none duration-700 sm:w-[440px] md:w-[560px]"
+        className="fade-in zoom-in-95 animate-in fill-mode-backwards relative w-[min(320px,82vw)] select-none duration-700 sm:w-[440px] md:w-[560px]"
         draggable={false}
       />
     </div>

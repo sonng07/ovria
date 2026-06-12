@@ -65,10 +65,7 @@ export function Header() {
 							</Button>
 						))}
 					</div>
-					<CtaLink
-						href="#telecharger"
-						className="ml-2 px-5 pt-1 pb-1.5 text-base"
-					>
+					<CtaLink href="#telecharger" size="sm" className="ml-2">
 						Télécharger l’app
 					</CtaLink>
 				</div>

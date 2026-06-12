@@ -88,11 +88,14 @@ export function ForCompanies() {
         </div>
 
         {/* Account / pricing CTA */}
-        <Reveal delay={120} className="mt-12 flex flex-wrap items-center justify-center gap-3">
-          <CtaLink href="#tarifs" variant="primary">
+        <Reveal
+          delay={120}
+          className="mt-12 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-center"
+        >
+          <CtaLink href="#tarifs" variant="primary" className="w-full sm:w-auto">
             Créer un compte entreprise
           </CtaLink>
-          <CtaLink href="#tarifs" variant="ghost">
+          <CtaLink href="#tarifs" variant="ghost" className="w-full sm:w-auto">
             Voir les tarifs
           </CtaLink>
         </Reveal>
