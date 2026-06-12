@@ -27,7 +27,8 @@ export function Pricing() {
         <Reveal className="mx-auto max-w-2xl text-center">
           <Eyebrow>Tarifs</Eyebrow>
           <h2 className="t-display-l mt-4 text-ink">
-            Gratuit pour les ouvriers. Un forfait simple pour les entreprises.
+            Gratuit pour les travailleurs. Un abonnement simple mensuel pour les
+            entreprises.
           </h2>
         </Reveal>
 
@@ -36,7 +37,7 @@ export function Pricing() {
           <Reveal>
             <div className="card-tide flex h-full flex-col p-8">
               <div className="flex items-center gap-3">
-                <span className="t-eyebrow text-muted-foreground">Ouvrier</span>
+                <span className="t-eyebrow text-muted-foreground">Travailleur</span>
                 <span className="rounded-pill bg-ok/15 px-2.5 py-1 text-[11px] font-bold uppercase tracking-[0.12em] text-ok">
                   Gratuit
                 </span>
@@ -66,10 +67,8 @@ export function Pricing() {
             <div className="card-tide flex h-full flex-col border-ink/15 p-8 shadow-[0_34px_70px_-44px_rgba(26,26,23,0.55)]">
               <span className="t-eyebrow text-muted-foreground">Entreprise</span>
               <div className="mt-4 flex items-end gap-2">
-                {/* TODO: the monthly price is not finalized in the product docs.
-                    Replace "Sur demande" with e.g. "49 € / mois" ONLY once confirmed.
-                    Do not invent a number. */}
-                <span className="t-display-m text-ink">Sur demande</span>
+                <span className="t-display-m text-ink">69 € HT</span>
+                <span className="t-body pb-1 text-muted-foreground">/ mois</span>
               </div>
               <p className="t-caption mt-2 text-muted-foreground">
                 Sans engagement · Résiliable à tout moment
@@ -85,10 +84,10 @@ export function Pricing() {
               />
               <div className="mt-8 pt-2">
                 <CtaLink href="#contact" variant="primary" className="w-full">
-                  Nous contacter
+                  Créer un compte entreprise
                 </CtaLink>
                 <p className="t-caption mt-3 text-center text-muted-foreground">
-                  Tarif communiqué sur demande, le temps de finaliser le lancement.
+                  Facturation mensuelle · Facture pro avec TVA
                 </p>
               </div>
             </div>

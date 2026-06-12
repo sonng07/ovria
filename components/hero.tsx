@@ -63,13 +63,13 @@ export function HeroSection() {
       <Eyebrow className="mb-4">Le BTP, en direct</Eyebrow>
 
       <h1 className="mx-auto max-w-2xl text-balance text-4xl font-bold tracking-tight md:text-6xl">
-        <span className="block">Le chantier et l’ouvrier,</span>
+        <span className="block">Le chantier et le travailleur,</span>
         <span className="block">en direct.</span>
       </h1>
 
       <p className="mx-auto mt-5 max-w-lg text-balance text-base text-muted-foreground md:text-lg">
-        OVRIA met en relation les ouvriers du BTP et les entreprises du bâtiment
-        en France. Sans agence. Sans commission.
+        OVRIA met en relation les professionnels du BTP et les entreprises du
+        bâtiment partout en France. Sans intermédiaire. Sans commission.
       </p>
 
       <div className="mx-auto mt-7 grid w-full max-w-xs grid-cols-1 gap-3 sm:w-fit sm:max-w-none sm:grid-cols-2">
@@ -90,7 +90,7 @@ export function HeroSection() {
       </div>
 
       <p className="mt-4 text-sm text-muted-foreground">
-        Gratuit pour les ouvriers · Sans commission pour personne
+        Gratuit pour les travailleurs · Sans commission pour personne
       </p>
 
       <div className="relative mt-16 md:mt-20">

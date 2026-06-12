@@ -14,23 +14,23 @@ const STEPS = [
   {
     step: "01",
     src: "/screens/entreprises-recherche.png",
-    alt: "Écran Filtres d’OVRIA — recherche d’ouvriers par métier, zone, niveau d’expérience et type de contrat",
+    alt: "Écran Filtres d’OVRIA — recherche de professionnels du BTP par métier, zone, niveau d’expérience et type de contrat",
     title: "Filtrez jusqu’au bon profil",
     body: "Métier, zone, niveau, contrat. Ne voyez que les profils faits pour votre chantier.",
   },
   {
     step: "02",
     src: "/screens/entreprises-contact.png",
-    alt: "Écran de message OVRIA — contacter un ouvrier directement en un message",
+    alt: "Écran de message OVRIA — contacter un travailleur directement en un message",
     title: "Contactez en direct",
-    body: "Écrivez à l’ouvrier qui vous intéresse. Sans agence, sans intermédiaire.",
+    body: "Écrivez au travailleur qui vous intéresse. Sans agence, sans intermédiaire.",
   },
   {
     step: "03",
     src: "/screens/entreprises-suivi.png",
     alt: "Écran Messages d’OVRIA — suivi des messages envoyés et de leur statut « En attente de réponse »",
     title: "Suivez vos échanges",
-    body: "Chaque message et son statut au même endroit. L’ouvrier accepte ou refuse — vous êtes notifié.",
+    body: "Chaque message et son statut au même endroit. Le travailleur accepte ou refuse — vous êtes notifié.",
   },
 ];
 
@@ -50,9 +50,9 @@ export function ForCompanies() {
             Recrutez en direct. Sans commission.
           </h2>
           <p className="t-lead mx-auto mt-5 max-w-xl text-ink-2">
-            Trouvez des ouvriers qualifiés et disponibles près de vos chantiers,
-            contactez-les directement, et suivez chaque échange. Un abonnement
-            mensuel, et c’est tout.
+            Trouvez des professionnels du BTP qualifiés près de votre entreprise,
+            contactez-les directement et échangez sans intermédiaire. Un
+            abonnement mensuel. Et c’est tout.
           </p>
         </Reveal>
 

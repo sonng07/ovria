@@ -24,7 +24,7 @@ export function Problem() {
 
         <Reveal delay={80} className="mx-auto mt-6 max-w-xl text-center">
           <p className="t-body text-ink-2">
-            Les agences d’intérim prélèvent 18 à 25 % au passage. Les ouvriers
+            Les agences d’intérim prélèvent 18 à 25 % au passage. Les travailleurs
             postulent « dans le vide » et n’ont jamais de retour. Les entreprises
             paient 800 à 2 500 € de commission pour une seule embauche — et trient
             des CV qui ne disent rien.

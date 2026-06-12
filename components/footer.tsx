@@ -24,7 +24,7 @@ const footerLinks: FooterSection[] = [
 	{
 		label: "Produit",
 		links: [
-			{ title: "Pour les ouvriers", href: "#ouvriers" },
+			{ title: "Pour les travailleurs", href: "#ouvriers" },
 			{ title: "Pour les entreprises", href: "#entreprises" },
 			{ title: "Tarifs", href: "#tarifs" },
 			{ title: "FAQ", href: "#faq" },

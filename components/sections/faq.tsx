@@ -9,12 +9,12 @@ import {
 
 const FAQ: { q: string; a: string }[] = [
   {
-    q: "OVRIA, c’est vraiment gratuit pour les ouvriers ?",
+    q: "OVRIA, c’est vraiment gratuit pour les travailleurs ?",
     a: "Oui. Créer un profil, être visible et recevoir des messages, c’est 100 % gratuit, pour toujours. Aucune carte bancaire demandée.",
   },
   {
     q: "Comment gagne OVRIA, alors ?",
-    a: "Les entreprises paient un abonnement mensuel pour contacter les ouvriers. C’est tout. Aucune commission n’est prélevée sur une embauche, ni côté ouvrier, ni côté entreprise.",
+    a: "Les entreprises paient un abonnement mensuel pour contacter les travailleurs. C’est tout. Aucune commission n’est prélevée sur une embauche, ni côté travailleur, ni côté entreprise.",
   },
   {
     q: "Combien ça coûte pour une entreprise ?",
@@ -22,11 +22,11 @@ const FAQ: { q: string; a: string }[] = [
   },
   {
     q: "C’est quoi un « signal d’intérêt » ?",
-    a: "C’est un moyen pour l’ouvrier de dire « je suis intéressé » à une entreprise, en un geste, sans envoyer de message. L’entreprise reçoit une alerte. C’est discret et limité, pour éviter le spam.",
+    a: "C’est un moyen pour le travailleur de dire « je suis intéressé » à une entreprise, en un geste, sans envoyer de message. L’entreprise reçoit une alerte. C’est discret et limité, pour éviter le spam.",
   },
   {
     q: "En quoi c’est différent d’une agence d’intérim ?",
-    a: "Pas d’intermédiaire et pas de commission. L’ouvrier et l’entreprise se parlent en direct. Vous gardez le contrôle, et personne ne prélève de marge sur votre travail.",
+    a: "Pas d’intermédiaire et pas de commission. Le travailleur et l’entreprise se parlent en direct. Vous gardez le contrôle, et personne ne prélève de marge sur votre travail.",
   },
   {
     q: "En quoi c’est différent d’Indeed ou LinkedIn ?",

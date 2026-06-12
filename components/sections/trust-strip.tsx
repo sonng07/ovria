@@ -9,7 +9,7 @@ import { CountUp } from "@/components/site/count-up";
 const STATS = [
   { to: 0, suffix: " %", label: "de commission" },
   { to: 2, suffix: " min", label: "pour créer votre profil" },
-  { to: 100, suffix: " %", label: "gratuit côté ouvrier" },
+  { to: 100, suffix: " %", label: "gratuit côté travailleur" },
 ];
 
 /** Shared count-up duration so all three stats sweep in lockstep. */

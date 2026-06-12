@@ -5,7 +5,7 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
   {
     title: "Produit",
     links: [
-      { label: "Pour les ouvriers", href: "#ouvriers" },
+      { label: "Pour les travailleurs", href: "#ouvriers" },
       { label: "Pour les entreprises", href: "#entreprises" },
       { label: "Tarifs", href: "#tarifs" },
       { label: "FAQ", href: "#faq" },

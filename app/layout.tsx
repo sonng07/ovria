@@ -9,9 +9,9 @@ const manrope = Manrope({
   display: "swap",
 });
 
-const title = "OVRIA — Trouvez un chantier ou un ouvrier du BTP, en direct";
+const title = "OVRIA — Trouvez un chantier ou un travailleur du BTP, en direct";
 const description =
-  "OVRIA met en relation directe les ouvriers du BTP et les entreprises en France. Profil gratuit pour les ouvriers, sans commission. App iOS et Android.";
+  "OVRIA met en relation directe les professionnels du BTP et les entreprises en France. Profil gratuit pour les travailleurs, sans commission. App iOS et Android.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ovria.fr"),
@@ -21,11 +21,11 @@ export const metadata: Metadata = {
   keywords: [
     "emploi BTP",
     "recrutement bâtiment",
-    "trouver un ouvrier",
+    "trouver un travailleur BTP",
     "maçon disponible",
     "intérim BTP alternative",
     "recruter sans commission",
-    "ouvrier du bâtiment",
+    "professionnel du bâtiment",
     "plateforme BTP",
   ],
   openGraph: {

@@ -54,7 +54,7 @@ const testimonials: Testimonial[] = [
 	},
 	{
 		quote:
-			"Fini les frais d’agence à rallonge. On paie le bon prix, l’ouvrier touche son dû, tout le monde y gagne.",
+			"Fini les frais d’agence à rallonge. On paie le bon prix, le travailleur touche son dû, tout le monde y gagne.",
 		image: "https://i.pravatar.cc/200?img=60",
 		name: "Marc Dubois",
 		role: "Conducteur de travaux",

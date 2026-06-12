@@ -40,7 +40,7 @@ export function ForWorkers() {
         {/* Centered header — matches the reference's "Key Benefits" block */}
         <Reveal className="mx-auto max-w-2xl text-center">
           <div className="flex items-center justify-center gap-3">
-            <Eyebrow>Pour les ouvriers</Eyebrow>
+            <Eyebrow>Pour les travailleurs</Eyebrow>
             <span className="rounded-pill bg-ok/15 px-2.5 py-1 text-[11px] font-bold uppercase tracking-[0.12em] text-ok">
               Gratuit
             </span>
@@ -49,8 +49,9 @@ export function ForWorkers() {
             Vous faites le travail. À vous d’être trouvé.
           </h2>
           <p className="t-lead mx-auto mt-5 max-w-xl text-ink-2">
-            Trouvez les entreprises qui recrutent près de chez vous, manifestez
-            votre intérêt, et laissez-les vous contacter. Gratuit, sans spam.
+            Créez votre profil professionnel, trouvez les entreprises qui
+            recrutent près de chez vous, manifestez votre intérêt, et
+            laissez-les vous contacter. Gratuit, sans spam.
           </p>
         </Reveal>
 

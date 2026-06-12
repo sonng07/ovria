@@ -16,7 +16,7 @@ const POINTS: CommissionPoint[] = [
   {
     icon: BadgePercent,
     title: "0 % de commission",
-    description: "Ni côté ouvrier, ni côté entreprise. Jamais.",
+    description: "Ni côté travailleur, ni côté entreprise. Jamais.",
   },
   {
     icon: Handshake,
@@ -31,7 +31,7 @@ const POINTS: CommissionPoint[] = [
   {
     icon: ShieldCheck,
     title: "Vous gardez le contrôle",
-    description: "L’ouvrier dit oui ou non. Personne ne prend de marge sur votre travail.",
+    description: "Le travailleur dit oui ou non. Personne ne prend de marge sur votre travail.",
   },
 ];
 

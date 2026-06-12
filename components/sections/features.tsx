@@ -14,12 +14,12 @@ const FEATURES: { icon: LucideIcon; title: string; body: string }[] = [
   {
     icon: Hand,
     title: "Signal d’intérêt",
-    body: "L’ouvrier se manifeste en un geste, sans spammer. L’entreprise reçoit une alerte. Discret, anti-spam.",
+    body: "Le travailleur se manifeste en un geste, sans spammer. L’entreprise reçoit une alerte. Discret, anti-spam.",
   },
   {
     icon: MessageCircle,
     title: "Messagerie directe",
-    body: "Échangez directement, sans intermédiaire. L’ouvrier accepte ou décline. Tout est clair.",
+    body: "Échangez directement, sans intermédiaire. Le travailleur accepte ou décline. Tout est clair.",
   },
   {
     icon: ShieldCheck,

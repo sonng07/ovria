@@ -15,7 +15,7 @@ const STEPS: {
     num: "01",
     icon: UserPlus,
     title: "Créez votre profil",
-    body: "Ouvrier : votre métier, votre niveau, votre zone, vos disponibilités. En 2 minutes. Gratuit.",
+    body: "Travailleur : votre métier, votre niveau, votre zone, vos disponibilités. En 2 minutes. Gratuit.",
   },
   {
     num: "02",
