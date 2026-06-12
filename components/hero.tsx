@@ -72,7 +72,7 @@ export function HeroSection() {
         bâtiment partout en France. Sans intermédiaire. Sans commission.
       </p>
 
-      <div className="mx-auto mt-7 grid w-full max-w-xs grid-cols-1 gap-3 sm:w-fit sm:max-w-none sm:grid-cols-2">
+      <div className="mx-auto mt-7 grid w-fit grid-cols-1 gap-3 sm:grid-cols-2">
         <StoreBadge
           href="#download"
           variant="dark"

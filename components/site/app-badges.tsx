@@ -46,7 +46,7 @@ export function AppBadges({
   onDark?: boolean;
 }) {
   return (
-    <div className={cn("grid w-full gap-3 sm:w-fit sm:grid-cols-2", className)}>
+    <div className={cn("mx-auto grid w-fit gap-3 sm:grid-cols-2", className)}>
       {/* TODO: replace with official App Store + Google Play SVG badges (FR locale). */}
       <StoreBadge
         href="#telecharger"
